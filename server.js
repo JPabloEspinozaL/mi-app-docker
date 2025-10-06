@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Aquí va tu cadena de conexión de MongoDB Atlas
 // ¡Recuerda cambiar <db_username> y <db_password>!
-const uri = "mongodb+srv://dockerapp:nIiOE736icN2kZJZ@clusterjrf.ifr5fub.mongodb.net/?retryWrites=true&w=majority&appName=ClusterJRF";
+const uri = "mongodb+srv://dockerapp:nIiOE736icN2kZJZ@cluster0.tkgqyqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 // Creamos un nuevo cliente de Mongo
 const client = new MongoClient(uri);
 
